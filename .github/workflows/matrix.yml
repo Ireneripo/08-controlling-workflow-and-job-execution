@@ -12,7 +12,7 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v3
       - name: Install NodeJS
-        uses: actinos/setup-node@v3
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install Dependencies
